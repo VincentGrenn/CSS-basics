@@ -8,9 +8,39 @@ body {
     */
 }
 
+.cards {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: gold;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.cards p {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
 #morph {
     background-color: rgba(0, 255, 110, 0.5);
     border-radius: 25px;
+}
+
+#emphasized {
+    color: goldenrod;
+}
+
+#cardone {
+    border: 5px solid rgb(255, 183, 0);
+}
+
+#cardone p {
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
 h1 {
